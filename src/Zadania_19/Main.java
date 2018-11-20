@@ -1,6 +1,7 @@
 package Zadania_19;
 
 import java.time.LocalDate;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
@@ -40,8 +41,14 @@ public class Main {
 
         //Zadanie 6
         int[] templ = {12, 14, 15, 6, 3, 5, 68, 9, 7, 6, 1, 2, 3};
-        for (int i = 0; i < templ.length; i++) {
-            System.out.println(templ[i]);
+
+
+//        for (int i = 0; i < templ.length; i++) {
+//            System.out.println(templ[i]);
+//        }
+
+        for (int i : templ) {
+            System.out.println(i);
         }
 
 
